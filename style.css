@@ -84,12 +84,12 @@ header nav i {
 }
 
 .infoText h3 {
-    font-size: 30px;
+    font-size: 1.9rem;
     font-family: diazo-mvb-rough1-ex-cond, sans-serif;
 }
 
 .infoText h5 {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     width: 50%;
@@ -105,6 +105,18 @@ main {
     " . questionsInfo . "
     "contact1 contact2 contact3";
     
+}
+
+main h3 {
+    font-family: diazo-mvb-rough1-ex-cond, sans-serif;
+    font-size: 1.3125rem;
+}
+
+main h4 {
+    color: rgb(24, 77, 71);
+    font-size: 1.125rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom:1rem;
 }
 
 .product1 {
@@ -133,13 +145,21 @@ main {
 .productInfo {
     margin-top: 0.7rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
-main h3 {
-    font-family: diazo-mvb-rough1-ex-cond, sans-serif;
-    font-size: 21px;
+.button1 {
+    width:35%;
+    height:2rem;
+    border-width: 0.51px;
+    border-color: rgb(24, 77, 71);
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(238, 187, 77);
 
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    padding:0.5rem;
+    margin-top:2rem;   
 }
 
 .questionsInfo {
@@ -149,7 +169,6 @@ main h3 {
 .questionsInfo h3{
     text-align: center;
     margin-bottom: 2rem;
-
 }
 
 .contact1 {
@@ -163,7 +182,6 @@ main h3 {
 
 .contact3 {
     grid-area: contact3;
-    
 }
 
 .product1, .product2, .product3, .contact1, .contact2, .contact3 {
@@ -178,7 +196,14 @@ main h3 {
     height: 20rem;
     width: 16rem;
     margin:2rem;
+}
 
+a {
+    text-decoration: none;
+    color: rgb(238, 187, 77);
+    font-size: 1.125rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+    font-weight: bold;
 }
 
 footer{
@@ -210,32 +235,6 @@ footer{
     height: 50%;
     align-self: center;
 }
-.button1 {
-    width:35%;
-    height:2rem;
-    border-width: 0.51px;
-    border-color: rgb(24, 77, 71);
-    border-style: solid;
-    border-radius: 10px;
-    background-color: rgb(238, 187, 77);
 
-    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
-    padding:0.5rem;
-    margin-top:2rem;
-    
-  }
 
-a {
-    text-decoration: none;
-    color: rgb(238, 187, 77);
-    font-size: 18px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
-    font-weight: bold;
-}
 
-main h4 {
-    color: rgb(24, 77, 71);
-    font-size: 18px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-bottom:1rem;
-}

@@ -1,48 +1,43 @@
 @media all and (max-width: 640px) {
     
+    .logotype {
+        height: 30%;
+        width: 15rem;
+        margin-left:1rem
+    }
 
-    
+    header {
+        height: 7rem;
+    }
 
-.logotype {
-    height: 30%;
-    width: 15rem;
-    margin-left:1rem
-}
+    .heroPage {
+        height:32rem;
+    }
 
-header {
-    height: 7rem;
-}
+    .heroPage h1 {
+        font-size: 2rem
+    }
 
-.heroPage {
-    height:32rem;
-}
+    .infoText { 
+        height: 10rem;
+    }
 
-.heroPage h1 {
-    font-size: 2rem
-}
+    .infoText h3 {
+        font-size: 21px;
+    }
 
-.infoText { 
-    height: 10rem;
-}
+    .infoText h5 {
+        font-size: 0.75rem;
+        width: 75%;
 
-.infoText h3 {
-    font-size: 21px;
-}
+    }
 
-.infoText h5 {
-    font-size: 12px;
-    width: 75%;
+    .symbol {
+        height: 40%;
+        width: 40%
+    }
 
-}
-    
-
-
-.symbol {
-    height: 40%;
-    width: 40%
-}
-
-footer {
-    height: 16rem;
-}
+    footer {
+        height: 16rem;
+    }
 }
