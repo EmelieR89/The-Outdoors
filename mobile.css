@@ -1,0 +1,100 @@
+@media all and (max-width: 640px) {
+    
+
+    .product3 {
+        display: none;
+    }
+
+.logotype {
+    height: 30%;
+    width: 15rem;
+    margin-left:1rem
+}
+
+header {
+    height: 7rem;
+}
+
+nav {
+    display: none;
+}
+
+#menuIcon {
+    visibility: visible;
+    display: flex;
+    align-self: center;
+    justify-self: end;
+    font-size: 2rem;
+}
+
+.wholeNav {
+    width: 10%;
+}
+
+.heroPage {
+    height:32rem;
+}
+
+.heroPage h1 {
+    font-size: 2rem
+}
+
+.infoText { 
+    height: 10rem;
+}
+
+.infoText h3 {
+    font-size: 21px;
+}
+
+.infoText h5 {
+    font-size: 12px;
+    width: 75%;
+
+}
+    
+main {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto  ;
+    grid-template-areas: 
+    "product1 product1"
+    "product2 product2"
+    "questionsInfo questionsInfo"
+    "contact1 contact1"
+    "contact2 contact2"
+    "contact3 contact3"   
+}
+
+.product1 {
+    
+    margin  : 2rem 0 2rem 0
+}
+
+.product2 {
+    
+    margin: 2rem 0 8rem 0
+}
+
+.contactPic1, .contactPic2, .contactPic3 {
+    border-radius: 70%;
+    height: 18rem;
+    width: 14rem;
+    margin:2rem
+
+}
+
+.contact1, .contact2, .contact3 {
+    margin-bottom: 2rem;
+}
+
+.symbol {
+    height: 40%;
+    width: 40%
+}
+
+footer {
+    height: 16rem;
+}
+}
