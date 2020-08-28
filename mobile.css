@@ -1,9 +1,7 @@
 @media all and (max-width: 640px) {
     
 
-    .product3 {
-        display: none;
-    }
+    
 
 .logotype {
     height: 30%;
@@ -37,40 +35,7 @@ header {
 
 }
     
-main {
-    margin-top: 2rem;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto  ;
-    grid-template-areas: 
-    "product1 product1"
-    "product2 product2"
-    "questionsInfo questionsInfo"
-    "contact1 contact1"
-    "contact2 contact2"
-    "contact3 contact3"   
-}
 
-.product1 {
-    margin  : 2rem 0 2rem 0
-}
-
-.product2 {
-    
-    margin: 2rem 0 8rem 0
-}
-
-.contactPic1, .contactPic2, .contactPic3 {
-    border-radius: 70%;
-    height: 18rem;
-    width: 14rem;
-    margin:2rem
-
-}
-
-.contact1, .contact2, .contact3 {
-    margin-bottom: 2rem;
-}
 
 .symbol {
     height: 40%;
