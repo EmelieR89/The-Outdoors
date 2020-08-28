@@ -1,0 +1,19 @@
+@media all and (max-width:1024px) {
+
+    nav {
+        display: none;
+    }
+    
+    #menuIcon {
+        visibility: visible;
+        display: flex;
+        align-self: center;
+        justify-self: end;
+        font-size: 2rem;
+    }
+    .wholeNav {
+        width: 10%;
+    }
+
+    
+}

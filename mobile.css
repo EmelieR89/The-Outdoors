@@ -15,22 +15,6 @@ header {
     height: 7rem;
 }
 
-nav {
-    display: none;
-}
-
-#menuIcon {
-    visibility: visible;
-    display: flex;
-    align-self: center;
-    justify-self: end;
-    font-size: 2rem;
-}
-
-.wholeNav {
-    width: 10%;
-}
-
 .heroPage {
     height:32rem;
 }
@@ -68,7 +52,6 @@ main {
 }
 
 .product1 {
-    
     margin  : 2rem 0 2rem 0
 }
 
