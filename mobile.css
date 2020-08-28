@@ -40,4 +40,9 @@
     footer {
         height: 16rem;
     }
+
+    .symbol {
+        height: 5rem;
+        width: 8.5rem;
+    }
 }
